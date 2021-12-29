@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:padding="@dimen/p10"
+    tools:context=".M1001">
+
+    <Button
+        android:id="@+id/m1001_b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/m1001_b006"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b006"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m1001_b001"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/m1001_b002"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b001"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/m1001_b003"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b002"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="@string/m1001_b004"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b003"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/m1001_b005"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b003"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/m1001_b006"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/m1001_b006"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1001_b005"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/myname"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
